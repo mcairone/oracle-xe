@@ -1,7 +1,7 @@
 FROM oraclelinux
 MAINTAINER Mario Cairone
 
-ENV NGIX_URL  http://192.168.99.100:32769/files/xe
+ENV NGIX_URL  http://<ngix url and port>/files/xe
 
 ENV _SCRATCH /tmp/scratch
 ENV PASSWORD welcome1
